@@ -11,7 +11,7 @@ import SwiftUI
 struct iOS6_HW17_Alexander_StrelkovApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LibraryView()
         }
     }
 }
