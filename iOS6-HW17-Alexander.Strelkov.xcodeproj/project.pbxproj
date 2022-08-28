@@ -12,6 +12,8 @@
 		11DC594A28BBCC4E004E224D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11DC594928BBCC4E004E224D /* Preview Assets.xcassets */; };
 		11DC595128BBD05A004E224D /* LibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DC595028BBD05A004E224D /* LibraryView.swift */; };
 		11DC595328BBD38A004E224D /* Tabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DC595228BBD38A004E224D /* Tabbar.swift */; };
+		11DC595728BBEAE8004E224D /* BluringView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DC595628BBEAE8004E224D /* BluringView.swift */; };
+		11DC595928BC00FF004E224D /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DC595828BC00FF004E224D /* Player.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		11DC594928BBCC4E004E224D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		11DC595028BBD05A004E224D /* LibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryView.swift; sourceTree = "<group>"; };
 		11DC595228BBD38A004E224D /* Tabbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tabbar.swift; sourceTree = "<group>"; };
+		11DC595628BBEAE8004E224D /* BluringView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluringView.swift; sourceTree = "<group>"; };
+		11DC595828BC00FF004E224D /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 				11DC594628BBCC4E004E224D /* Assets.xcassets */,
 				11DC594828BBCC4E004E224D /* Preview Content */,
 				11DC595228BBD38A004E224D /* Tabbar.swift */,
+				11DC595628BBEAE8004E224D /* BluringView.swift */,
+				11DC595828BC00FF004E224D /* Player.swift */,
 			);
 			path = "iOS6-HW17-Alexander.Strelkov";
 			sourceTree = "<group>";
@@ -142,7 +148,9 @@
 			files = (
 				11DC595328BBD38A004E224D /* Tabbar.swift in Sources */,
 				11DC595128BBD05A004E224D /* LibraryView.swift in Sources */,
+				11DC595728BBEAE8004E224D /* BluringView.swift in Sources */,
 				11DC594328BBCC4B004E224D /* iOS6_HW17_Alexander_StrelkovApp.swift in Sources */,
+				11DC595928BC00FF004E224D /* Player.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
