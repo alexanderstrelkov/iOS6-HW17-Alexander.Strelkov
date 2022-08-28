@@ -9,26 +9,29 @@ import SwiftUI
 
 struct Tabbar: View {
     var body: some View {
-        TabView {
-            mainViewText()
-                .tabItem {
-                    Image(systemName: "music.note.house.fill")
-                    Text("Медиатека")
-                }
-            Text("В разбработке")
-                .tabItem {
-                    Image(systemName: "dot.radiowaves.left.and.right")
-                    Text("Радио")
-                }
-            Text("В разбработке")
-                .tabItem {
-                    Image(systemName: "magnifyingglass")
-                    Text("Инфо")
-                }
+        ZStack(alignment: Alignment(horizontal: .center, vertical: .bottom), content: {
+            TabView {
+                mainViewText()
+                    .tabItem {
+                        Image(systemName: "rectangle.stack.fill")
+                        Text("Медиатека")
+                    }
+                Text("В разбработке")
+                    .tabItem {
+                        Image(systemName: "dot.radiowaves.left.and.right")
+                        Text("Радио")
+                    }
+                Text("В разбработке")
+                    .tabItem {
+                        Image(systemName: "magnifyingglass")
+                        Text("Инфо")
+                    }
             }
-        .accentColor(.red)
-        }
+            .accentColor(.red)
+            Player()
+        })
     }
+}
 
 struct Tabbar_Previews: PreviewProvider {
     static var previews: some View {
