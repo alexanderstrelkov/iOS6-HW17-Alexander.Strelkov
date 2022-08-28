@@ -8,17 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		11DC594328BBCC4B004E224D /* iOS6_HW17_Alexander_StrelkovApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DC594228BBCC4B004E224D /* iOS6_HW17_Alexander_StrelkovApp.swift */; };
-		11DC594528BBCC4B004E224D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DC594428BBCC4B004E224D /* ContentView.swift */; };
 		11DC594728BBCC4E004E224D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11DC594628BBCC4E004E224D /* Assets.xcassets */; };
 		11DC594A28BBCC4E004E224D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11DC594928BBCC4E004E224D /* Preview Assets.xcassets */; };
+		11DC595128BBD05A004E224D /* LibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DC595028BBD05A004E224D /* LibraryView.swift */; };
+		11DC595328BBD38A004E224D /* Tabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DC595228BBD38A004E224D /* Tabbar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		11DC593F28BBCC4B004E224D /* iOS6-HW17-Alexander.Strelkov.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS6-HW17-Alexander.Strelkov.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		11DC594228BBCC4B004E224D /* iOS6_HW17_Alexander_StrelkovApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS6_HW17_Alexander_StrelkovApp.swift; sourceTree = "<group>"; };
-		11DC594428BBCC4B004E224D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		11DC594628BBCC4E004E224D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		11DC594928BBCC4E004E224D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		11DC595028BBD05A004E224D /* LibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryView.swift; sourceTree = "<group>"; };
+		11DC595228BBD38A004E224D /* Tabbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tabbar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,9 +54,10 @@
 			isa = PBXGroup;
 			children = (
 				11DC594228BBCC4B004E224D /* iOS6_HW17_Alexander_StrelkovApp.swift */,
-				11DC594428BBCC4B004E224D /* ContentView.swift */,
+				11DC595028BBD05A004E224D /* LibraryView.swift */,
 				11DC594628BBCC4E004E224D /* Assets.xcassets */,
 				11DC594828BBCC4E004E224D /* Preview Content */,
+				11DC595228BBD38A004E224D /* Tabbar.swift */,
 			);
 			path = "iOS6-HW17-Alexander.Strelkov";
 			sourceTree = "<group>";
@@ -137,7 +140,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11DC594528BBCC4B004E224D /* ContentView.swift in Sources */,
+				11DC595328BBD38A004E224D /* Tabbar.swift in Sources */,
+				11DC595128BBD05A004E224D /* LibraryView.swift in Sources */,
 				11DC594328BBCC4B004E224D /* iOS6_HW17_Alexander_StrelkovApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -277,7 +281,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,7 +311,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
