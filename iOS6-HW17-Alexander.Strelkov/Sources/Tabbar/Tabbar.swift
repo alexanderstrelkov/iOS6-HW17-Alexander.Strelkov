@@ -8,14 +8,19 @@
 import SwiftUI
 
 struct Tabbar: View {
+    init() {
+        UINavigationBar.setAnimationsEnabled(false)
+    }
     var body: some View {
-        ZStack(alignment: Alignment(horizontal: .center, vertical: .bottom), content: {
+        ZStack {
             TabView {
-                mainViewText()
-                    .tabItem {
-                        Image(systemName: "rectangle.stack.fill")
-                        Text("Медиатека")
-                    }
+                NavigationView {
+                    LibraryView()
+                }
+                .tabItem {
+                    Image(systemName: "rectangle.stack.fill")
+                    Text("Медиатека")
+                }
                 Text("В разбработке")
                     .tabItem {
                         Image(systemName: "dot.radiowaves.left.and.right")
@@ -29,7 +34,8 @@ struct Tabbar: View {
             }
             .accentColor(.red)
             Player()
-        })
+                .offset(y: 290)
+        }
     }
 }
 
@@ -39,16 +45,4 @@ struct Tabbar_Previews: PreviewProvider {
     }
 }
 
-struct mainViewText: View {
-    var body: some View {
-        VStack {
-            Text("Ищете свою музыку?")
-                .font(.title2)
-                .bold()
-            Text("Здесь появится купленная Вами в iTunes Store музыка.")
-                .foregroundColor(.secondary)
-                .multilineTextAlignment(.center)
-                .frame(width: 310.0)
-        }
-    }
-}
+

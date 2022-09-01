@@ -37,7 +37,6 @@ struct Player: View {
                 BluringView()
                 Divider()
             })
-        .offset(y: -48)
     }
 }
 
