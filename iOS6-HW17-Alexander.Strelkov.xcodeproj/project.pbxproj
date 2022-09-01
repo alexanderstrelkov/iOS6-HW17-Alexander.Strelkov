@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1100B8EC28BFE6B000FB71FC /* CellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1100B8EB28BFE6B000FB71FC /* CellModel.swift */; };
+		1100B8EE28BFEAD100FB71FC /* CellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1100B8ED28BFEAD100FB71FC /* CellView.swift */; };
 		11DC594328BBCC4B004E224D /* iOS6_HW17_Alexander_StrelkovApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DC594228BBCC4B004E224D /* iOS6_HW17_Alexander_StrelkovApp.swift */; };
 		11DC594728BBCC4E004E224D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11DC594628BBCC4E004E224D /* Assets.xcassets */; };
 		11DC594A28BBCC4E004E224D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11DC594928BBCC4E004E224D /* Preview Assets.xcassets */; };
@@ -14,9 +16,12 @@
 		11DC595328BBD38A004E224D /* Tabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DC595228BBD38A004E224D /* Tabbar.swift */; };
 		11DC595728BBEAE8004E224D /* BluringView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DC595628BBEAE8004E224D /* BluringView.swift */; };
 		11DC595928BC00FF004E224D /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DC595828BC00FF004E224D /* Player.swift */; };
+		11DC595B28BCE2A3004E224D /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DC595A28BCE2A3004E224D /* ListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1100B8EB28BFE6B000FB71FC /* CellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellModel.swift; sourceTree = "<group>"; };
+		1100B8ED28BFEAD100FB71FC /* CellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellView.swift; sourceTree = "<group>"; };
 		11DC593F28BBCC4B004E224D /* iOS6-HW17-Alexander.Strelkov.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS6-HW17-Alexander.Strelkov.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		11DC594228BBCC4B004E224D /* iOS6_HW17_Alexander_StrelkovApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS6_HW17_Alexander_StrelkovApp.swift; sourceTree = "<group>"; };
 		11DC594628BBCC4E004E224D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -25,6 +30,7 @@
 		11DC595228BBD38A004E224D /* Tabbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tabbar.swift; sourceTree = "<group>"; };
 		11DC595628BBEAE8004E224D /* BluringView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluringView.swift; sourceTree = "<group>"; };
 		11DC595828BC00FF004E224D /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		11DC595A28BCE2A3004E224D /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +44,62 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1100B8E528BFE60F00FB71FC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				11DC594628BBCC4E004E224D /* Assets.xcassets */,
+				11DC594828BBCC4E004E224D /* Preview Content */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1100B8E628BFE61F00FB71FC /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				1100B8EA28BFE6A300FB71FC /* Custom Cells */,
+				1100B8E928BFE64900FB71FC /* View */,
+				1100B8E828BFE64100FB71FC /* Tabbar */,
+				1100B8E728BFE63300FB71FC /* Player */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		1100B8E728BFE63300FB71FC /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				11DC595828BC00FF004E224D /* Player.swift */,
+				11DC595628BBEAE8004E224D /* BluringView.swift */,
+			);
+			path = Player;
+			sourceTree = "<group>";
+		};
+		1100B8E828BFE64100FB71FC /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				11DC595228BBD38A004E224D /* Tabbar.swift */,
+			);
+			path = Tabbar;
+			sourceTree = "<group>";
+		};
+		1100B8E928BFE64900FB71FC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				11DC595028BBD05A004E224D /* LibraryView.swift */,
+				11DC595A28BCE2A3004E224D /* ListView.swift */,
+				11DC594228BBCC4B004E224D /* iOS6_HW17_Alexander_StrelkovApp.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1100B8EA28BFE6A300FB71FC /* Custom Cells */ = {
+			isa = PBXGroup;
+			children = (
+				1100B8EB28BFE6B000FB71FC /* CellModel.swift */,
+				1100B8ED28BFEAD100FB71FC /* CellView.swift */,
+			);
+			path = "Custom Cells";
+			sourceTree = "<group>";
+		};
 		11DC593628BBCC4B004E224D = {
 			isa = PBXGroup;
 			children = (
@@ -57,13 +119,8 @@
 		11DC594128BBCC4B004E224D /* iOS6-HW17-Alexander.Strelkov */ = {
 			isa = PBXGroup;
 			children = (
-				11DC594228BBCC4B004E224D /* iOS6_HW17_Alexander_StrelkovApp.swift */,
-				11DC595028BBD05A004E224D /* LibraryView.swift */,
-				11DC594628BBCC4E004E224D /* Assets.xcassets */,
-				11DC594828BBCC4E004E224D /* Preview Content */,
-				11DC595228BBD38A004E224D /* Tabbar.swift */,
-				11DC595628BBEAE8004E224D /* BluringView.swift */,
-				11DC595828BC00FF004E224D /* Player.swift */,
+				1100B8E628BFE61F00FB71FC /* Sources */,
+				1100B8E528BFE60F00FB71FC /* Resources */,
 			);
 			path = "iOS6-HW17-Alexander.Strelkov";
 			sourceTree = "<group>";
@@ -148,7 +205,10 @@
 			files = (
 				11DC595328BBD38A004E224D /* Tabbar.swift in Sources */,
 				11DC595128BBD05A004E224D /* LibraryView.swift in Sources */,
+				11DC595B28BCE2A3004E224D /* ListView.swift in Sources */,
 				11DC595728BBEAE8004E224D /* BluringView.swift in Sources */,
+				1100B8EE28BFEAD100FB71FC /* CellView.swift in Sources */,
+				1100B8EC28BFE6B000FB71FC /* CellModel.swift in Sources */,
 				11DC594328BBCC4B004E224D /* iOS6_HW17_Alexander_StrelkovApp.swift in Sources */,
 				11DC595928BC00FF004E224D /* Player.swift in Sources */,
 			);
@@ -280,7 +340,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"iOS6-HW17-Alexander.Strelkov/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"iOS6-HW17-Alexander.Strelkov/Resources/Preview Content\"";
 				DEVELOPMENT_TEAM = QWP4K38XSA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -310,7 +370,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"iOS6-HW17-Alexander.Strelkov/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"iOS6-HW17-Alexander.Strelkov/Resources/Preview Content\"";
 				DEVELOPMENT_TEAM = QWP4K38XSA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
