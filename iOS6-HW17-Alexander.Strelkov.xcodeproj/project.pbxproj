@@ -9,6 +9,11 @@
 /* Begin PBXBuildFile section */
 		1100B8EC28BFE6B000FB71FC /* CellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1100B8EB28BFE6B000FB71FC /* CellModel.swift */; };
 		1100B8EE28BFEAD100FB71FC /* CellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1100B8ED28BFEAD100FB71FC /* CellView.swift */; };
+		11617C4228C351FE00C66A6C /* RadioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11617C4128C351FE00C66A6C /* RadioView.swift */; };
+		11617C4428C3C6AC00C66A6C /* StationsGrids.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11617C4328C3C6AC00C66A6C /* StationsGrids.swift */; };
+		11617C4628C3C72300C66A6C /* RadioGrids.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11617C4528C3C72300C66A6C /* RadioGrids.swift */; };
+		11617C4928C3CF9200C66A6C /* CustomRadioGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11617C4828C3CF9200C66A6C /* CustomRadioGrid.swift */; };
+		11617C4B28C3CFEF00C66A6C /* RadioGridModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11617C4A28C3CFEF00C66A6C /* RadioGridModel.swift */; };
 		11DC594328BBCC4B004E224D /* iOS6_HW17_Alexander_StrelkovApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DC594228BBCC4B004E224D /* iOS6_HW17_Alexander_StrelkovApp.swift */; };
 		11DC594728BBCC4E004E224D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11DC594628BBCC4E004E224D /* Assets.xcassets */; };
 		11DC594A28BBCC4E004E224D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11DC594928BBCC4E004E224D /* Preview Assets.xcassets */; };
@@ -22,6 +27,11 @@
 /* Begin PBXFileReference section */
 		1100B8EB28BFE6B000FB71FC /* CellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellModel.swift; sourceTree = "<group>"; };
 		1100B8ED28BFEAD100FB71FC /* CellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellView.swift; sourceTree = "<group>"; };
+		11617C4128C351FE00C66A6C /* RadioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioView.swift; sourceTree = "<group>"; };
+		11617C4328C3C6AC00C66A6C /* StationsGrids.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationsGrids.swift; sourceTree = "<group>"; };
+		11617C4528C3C72300C66A6C /* RadioGrids.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioGrids.swift; sourceTree = "<group>"; };
+		11617C4828C3CF9200C66A6C /* CustomRadioGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomRadioGrid.swift; sourceTree = "<group>"; };
+		11617C4A28C3CFEF00C66A6C /* RadioGridModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioGridModel.swift; sourceTree = "<group>"; };
 		11DC593F28BBCC4B004E224D /* iOS6-HW17-Alexander.Strelkov.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS6-HW17-Alexander.Strelkov.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		11DC594228BBCC4B004E224D /* iOS6_HW17_Alexander_StrelkovApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS6_HW17_Alexander_StrelkovApp.swift; sourceTree = "<group>"; };
 		11DC594628BBCC4E004E224D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -87,6 +97,9 @@
 				11DC595028BBD05A004E224D /* LibraryView.swift */,
 				11DC595A28BCE2A3004E224D /* ListView.swift */,
 				11DC594228BBCC4B004E224D /* iOS6_HW17_Alexander_StrelkovApp.swift */,
+				11617C4128C351FE00C66A6C /* RadioView.swift */,
+				11617C4528C3C72300C66A6C /* RadioGrids.swift */,
+				11617C4328C3C6AC00C66A6C /* StationsGrids.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -96,6 +109,8 @@
 			children = (
 				1100B8EB28BFE6B000FB71FC /* CellModel.swift */,
 				1100B8ED28BFEAD100FB71FC /* CellView.swift */,
+				11617C4A28C3CFEF00C66A6C /* RadioGridModel.swift */,
+				11617C4828C3CF9200C66A6C /* CustomRadioGrid.swift */,
 			);
 			path = "Custom Cells";
 			sourceTree = "<group>";
@@ -203,13 +218,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11617C4928C3CF9200C66A6C /* CustomRadioGrid.swift in Sources */,
 				11DC595328BBD38A004E224D /* Tabbar.swift in Sources */,
+				11617C4628C3C72300C66A6C /* RadioGrids.swift in Sources */,
 				11DC595128BBD05A004E224D /* LibraryView.swift in Sources */,
 				11DC595B28BCE2A3004E224D /* ListView.swift in Sources */,
 				11DC595728BBEAE8004E224D /* BluringView.swift in Sources */,
 				1100B8EE28BFEAD100FB71FC /* CellView.swift in Sources */,
 				1100B8EC28BFE6B000FB71FC /* CellModel.swift in Sources */,
+				11617C4228C351FE00C66A6C /* RadioView.swift in Sources */,
+				11617C4428C3C6AC00C66A6C /* StationsGrids.swift in Sources */,
 				11DC594328BBCC4B004E224D /* iOS6_HW17_Alexander_StrelkovApp.swift in Sources */,
+				11617C4B28C3CFEF00C66A6C /* RadioGridModel.swift in Sources */,
 				11DC595928BC00FF004E224D /* Player.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
