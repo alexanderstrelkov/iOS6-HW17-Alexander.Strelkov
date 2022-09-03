@@ -8,14 +8,16 @@
 import SwiftUI
 
 struct RadioGrids: View {
-    let rows = [GridItem(.fixed(15))]
+    
+    let rows: [GridItem] = [GridItem(.flexible())]
+    @State private var radioGridModels = RadioGridModel.cells
+    
     var body: some View {
         ScrollView(.horizontal, showsIndicators: false) {
             LazyHGrid(rows: rows) {
-                ForEach(0..<5) { index in
-                    Rectangle()
-                        .frame(width: 350, height: 200)
-                        .foregroundColor(.blue)
+                ForEach(radioGridModels, id: \.self) { model in
+                    RadioGridView(gridModel: model)
+                        .frame(width: 390)
                 }
             }
         }
