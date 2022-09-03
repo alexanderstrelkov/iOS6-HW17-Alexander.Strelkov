@@ -9,7 +9,7 @@ import SwiftUI
 
 struct Tabbar: View {
     init() {
-        UINavigationBar.setAnimationsEnabled(false)
+        UINavigationBar.setAnimationsEnabled(true)
     }
     var body: some View {
         ZStack {
@@ -21,7 +21,7 @@ struct Tabbar: View {
                     Image(systemName: "rectangle.stack.fill")
                     Text("Медиатека")
                 }
-                Text("В разбработке")
+                RadioView()
                     .tabItem {
                         Image(systemName: "dot.radiowaves.left.and.right")
                         Text("Радио")
