@@ -8,7 +8,10 @@
 import SwiftUI
 
 struct StationsGrids: View {
-    var columns: [GridItem] = [GridItem(.flexible())]
+    
+    let columns: [GridItem] = [GridItem(.flexible())]
+    @State private var stationGridModels = StationGridModel.cells
+    
     var body: some View {
         ScrollView(.vertical, showsIndicators: false) {
             LazyVGrid(columns: columns) {
@@ -19,10 +22,9 @@ struct StationsGrids: View {
                             .frame(maxWidth: .infinity, alignment: .leading)
                             .padding()
                 ) {
-                    ForEach(0..<5) { index in
-                        Rectangle()
-                            .frame(height: 200)
-                            .foregroundColor(.blue)
+                    ForEach(stationGridModels, id: \.self) { model in
+                        StationGridView(gridModel: model)
+                        Divider()
                     }
                 }
             }

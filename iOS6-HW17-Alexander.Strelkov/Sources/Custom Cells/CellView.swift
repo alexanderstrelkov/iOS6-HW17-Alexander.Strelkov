@@ -19,8 +19,6 @@ struct CellView: View {
             
             Text(cellModel.name)
                 .fontWeight(.medium)
-            
-            
         }
     }
 }

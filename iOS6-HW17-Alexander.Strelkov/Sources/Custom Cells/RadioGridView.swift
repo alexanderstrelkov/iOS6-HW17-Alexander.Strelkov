@@ -7,33 +7,34 @@
 
 import SwiftUI
 
-struct CustomRadioGrid: View {
+struct RadioGridView: View {
     var gridModel: RadioGridModel
     
     var body: some View {
         VStack {
             VStack {
                 Text("Избранная радиостанция")
-                    .frame(width: 350, alignment: .leading)
+                    .frame(width: 370, alignment: .leading)
                     .foregroundColor(.secondary)
-                Text(gridModel.name)
-                    .frame(width: 350, alignment: .leading)
+                Text(gridModel.title)
+                    .frame(width: 370, alignment: .leading)
                     .font(.title2)
+                    .foregroundColor(.black)
                 Text("Станция Apple Music")
-                    .frame(width: 350, alignment: .leading)
+                    .frame(width: 370, alignment: .leading)
                     .foregroundColor(.secondary)
             }
-        
+            
             Image(gridModel.icon)
                 .resizable()
                 .scaledToFit()
-                .frame(width: 350)
+                .frame(width: 375)
         }
     }
 }
 
-struct CustomRadioGrid_Previews: PreviewProvider {
+struct RadioGridView_Previews: PreviewProvider {
     static var previews: some View {
-        CustomRadioGrid(gridModel: RadioGridModel.cells[0])
+        RadioGridView(gridModel: RadioGridModel.cells[0])
     }
 }

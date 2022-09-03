@@ -9,17 +9,17 @@ import SwiftUI
 
 struct RadioGridModel: Identifiable, Hashable  {
     var id = UUID()
-    let name: String
+    let title: String
     let icon: String
     
-    static var cells: [RadioGridModel] = [RadioGridModel(name: "Хиты",
+    static var cells: [RadioGridModel] = [RadioGridModel(title: "Хиты",
                                                icon: "radio1"),
-                                          RadioGridModel(name: "Легкий поп",
+                                          RadioGridModel(title: "Легкий поп",
                                                icon: "radio2"),
-                                          RadioGridModel(name: "Хип-хоп",
+                                          RadioGridModel(title: "Хип-хоп",
                                                icon: "radio3"),
-                                          RadioGridModel(name: "Поп музыка",
+                                          RadioGridModel(title: "Поп музыка",
                                                icon: "radio4"),
-                                          RadioGridModel(name: "Чилаут",
+                                          RadioGridModel(title: "Чилаут",
                                                icon: "radio5")]
 }

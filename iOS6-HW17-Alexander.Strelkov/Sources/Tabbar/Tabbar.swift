@@ -9,7 +9,7 @@ import SwiftUI
 
 struct Tabbar: View {
     init() {
-        UINavigationBar.setAnimationsEnabled(true)
+        UINavigationBar.setAnimationsEnabled(false)
     }
     var body: some View {
         ZStack {
