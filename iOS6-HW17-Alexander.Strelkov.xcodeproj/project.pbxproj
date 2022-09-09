@@ -7,18 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1100B8EC28BFE6B000FB71FC /* CellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1100B8EB28BFE6B000FB71FC /* CellModel.swift */; };
+		1100B8EE28BFEAD100FB71FC /* CellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1100B8ED28BFEAD100FB71FC /* CellView.swift */; };
+		11617C4228C351FE00C66A6C /* RadioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11617C4128C351FE00C66A6C /* RadioView.swift */; };
+		11617C4428C3C6AC00C66A6C /* StationsGrids.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11617C4328C3C6AC00C66A6C /* StationsGrids.swift */; };
+		11617C4628C3C72300C66A6C /* RadioGrids.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11617C4528C3C72300C66A6C /* RadioGrids.swift */; };
+		11617C4928C3CF9200C66A6C /* RadioGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11617C4828C3CF9200C66A6C /* RadioGridView.swift */; };
+		11617C4B28C3CFEF00C66A6C /* RadioGridModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11617C4A28C3CFEF00C66A6C /* RadioGridModel.swift */; };
+		11617C4D28C3DFDC00C66A6C /* StationGridModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11617C4C28C3DFDC00C66A6C /* StationGridModel.swift */; };
+		11617C4F28C3DFE800C66A6C /* StationGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11617C4E28C3DFE800C66A6C /* StationGridView.swift */; };
 		11DC594328BBCC4B004E224D /* iOS6_HW17_Alexander_StrelkovApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DC594228BBCC4B004E224D /* iOS6_HW17_Alexander_StrelkovApp.swift */; };
-		11DC594528BBCC4B004E224D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DC594428BBCC4B004E224D /* ContentView.swift */; };
 		11DC594728BBCC4E004E224D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11DC594628BBCC4E004E224D /* Assets.xcassets */; };
 		11DC594A28BBCC4E004E224D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11DC594928BBCC4E004E224D /* Preview Assets.xcassets */; };
+		11DC595128BBD05A004E224D /* LibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DC595028BBD05A004E224D /* LibraryView.swift */; };
+		11DC595328BBD38A004E224D /* Tabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DC595228BBD38A004E224D /* Tabbar.swift */; };
+		11DC595728BBEAE8004E224D /* BluringView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DC595628BBEAE8004E224D /* BluringView.swift */; };
+		11DC595928BC00FF004E224D /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DC595828BC00FF004E224D /* Player.swift */; };
+		11DC595B28BCE2A3004E224D /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DC595A28BCE2A3004E224D /* ListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1100B8EB28BFE6B000FB71FC /* CellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellModel.swift; sourceTree = "<group>"; };
+		1100B8ED28BFEAD100FB71FC /* CellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellView.swift; sourceTree = "<group>"; };
+		11617C4128C351FE00C66A6C /* RadioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioView.swift; sourceTree = "<group>"; };
+		11617C4328C3C6AC00C66A6C /* StationsGrids.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationsGrids.swift; sourceTree = "<group>"; };
+		11617C4528C3C72300C66A6C /* RadioGrids.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioGrids.swift; sourceTree = "<group>"; };
+		11617C4828C3CF9200C66A6C /* RadioGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioGridView.swift; sourceTree = "<group>"; };
+		11617C4A28C3CFEF00C66A6C /* RadioGridModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioGridModel.swift; sourceTree = "<group>"; };
+		11617C4C28C3DFDC00C66A6C /* StationGridModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationGridModel.swift; sourceTree = "<group>"; };
+		11617C4E28C3DFE800C66A6C /* StationGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationGridView.swift; sourceTree = "<group>"; };
 		11DC593F28BBCC4B004E224D /* iOS6-HW17-Alexander.Strelkov.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS6-HW17-Alexander.Strelkov.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		11DC594228BBCC4B004E224D /* iOS6_HW17_Alexander_StrelkovApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS6_HW17_Alexander_StrelkovApp.swift; sourceTree = "<group>"; };
-		11DC594428BBCC4B004E224D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		11DC594628BBCC4E004E224D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		11DC594928BBCC4E004E224D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		11DC595028BBD05A004E224D /* LibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryView.swift; sourceTree = "<group>"; };
+		11DC595228BBD38A004E224D /* Tabbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tabbar.swift; sourceTree = "<group>"; };
+		11DC595628BBEAE8004E224D /* BluringView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluringView.swift; sourceTree = "<group>"; };
+		11DC595828BC00FF004E224D /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		11DC595A28BCE2A3004E224D /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +58,101 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1100B8E528BFE60F00FB71FC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				11DC594628BBCC4E004E224D /* Assets.xcassets */,
+				11DC594828BBCC4E004E224D /* Preview Content */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1100B8E628BFE61F00FB71FC /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				118E9BE428CBB67D0093944C /* App */,
+				1100B8EA28BFE6A300FB71FC /* Custom Cells */,
+				1100B8E928BFE64900FB71FC /* Scenes */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		1100B8E728BFE63300FB71FC /* MiniPlayerView */ = {
+			isa = PBXGroup;
+			children = (
+				11DC595828BC00FF004E224D /* Player.swift */,
+				11DC595628BBEAE8004E224D /* BluringView.swift */,
+			);
+			path = MiniPlayerView;
+			sourceTree = "<group>";
+		};
+		1100B8E828BFE64100FB71FC /* TabbarView */ = {
+			isa = PBXGroup;
+			children = (
+				11DC595228BBD38A004E224D /* Tabbar.swift */,
+			);
+			path = TabbarView;
+			sourceTree = "<group>";
+		};
+		1100B8E928BFE64900FB71FC /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				1100B8E728BFE63300FB71FC /* MiniPlayerView */,
+				118E9BE528CBB68B0093944C /* LibraryView */,
+				1100B8E828BFE64100FB71FC /* TabbarView */,
+				118E9BE628CBB6960093944C /* ListView */,
+				118E9BE328CBB64B0093944C /* RadioView */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		1100B8EA28BFE6A300FB71FC /* Custom Cells */ = {
+			isa = PBXGroup;
+			children = (
+				1100B8EB28BFE6B000FB71FC /* CellModel.swift */,
+				1100B8ED28BFEAD100FB71FC /* CellView.swift */,
+				11617C4A28C3CFEF00C66A6C /* RadioGridModel.swift */,
+				11617C4828C3CF9200C66A6C /* RadioGridView.swift */,
+				11617C4C28C3DFDC00C66A6C /* StationGridModel.swift */,
+				11617C4E28C3DFE800C66A6C /* StationGridView.swift */,
+			);
+			path = "Custom Cells";
+			sourceTree = "<group>";
+		};
+		118E9BE328CBB64B0093944C /* RadioView */ = {
+			isa = PBXGroup;
+			children = (
+				11617C4128C351FE00C66A6C /* RadioView.swift */,
+				11617C4528C3C72300C66A6C /* RadioGrids.swift */,
+				11617C4328C3C6AC00C66A6C /* StationsGrids.swift */,
+			);
+			path = RadioView;
+			sourceTree = "<group>";
+		};
+		118E9BE428CBB67D0093944C /* App */ = {
+			isa = PBXGroup;
+			children = (
+				11DC594228BBCC4B004E224D /* iOS6_HW17_Alexander_StrelkovApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		118E9BE528CBB68B0093944C /* LibraryView */ = {
+			isa = PBXGroup;
+			children = (
+				11DC595028BBD05A004E224D /* LibraryView.swift */,
+			);
+			path = LibraryView;
+			sourceTree = "<group>";
+		};
+		118E9BE628CBB6960093944C /* ListView */ = {
+			isa = PBXGroup;
+			children = (
+				11DC595A28BCE2A3004E224D /* ListView.swift */,
+			);
+			path = ListView;
+			sourceTree = "<group>";
+		};
 		11DC593628BBCC4B004E224D = {
 			isa = PBXGroup;
 			children = (
@@ -51,10 +172,8 @@
 		11DC594128BBCC4B004E224D /* iOS6-HW17-Alexander.Strelkov */ = {
 			isa = PBXGroup;
 			children = (
-				11DC594228BBCC4B004E224D /* iOS6_HW17_Alexander_StrelkovApp.swift */,
-				11DC594428BBCC4B004E224D /* ContentView.swift */,
-				11DC594628BBCC4E004E224D /* Assets.xcassets */,
-				11DC594828BBCC4E004E224D /* Preview Content */,
+				1100B8E628BFE61F00FB71FC /* Sources */,
+				1100B8E528BFE60F00FB71FC /* Resources */,
 			);
 			path = "iOS6-HW17-Alexander.Strelkov";
 			sourceTree = "<group>";
@@ -137,8 +256,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11DC594528BBCC4B004E224D /* ContentView.swift in Sources */,
+				11617C4928C3CF9200C66A6C /* RadioGridView.swift in Sources */,
+				11DC595328BBD38A004E224D /* Tabbar.swift in Sources */,
+				11617C4628C3C72300C66A6C /* RadioGrids.swift in Sources */,
+				11DC595128BBD05A004E224D /* LibraryView.swift in Sources */,
+				11617C4D28C3DFDC00C66A6C /* StationGridModel.swift in Sources */,
+				11DC595B28BCE2A3004E224D /* ListView.swift in Sources */,
+				11DC595728BBEAE8004E224D /* BluringView.swift in Sources */,
+				1100B8EE28BFEAD100FB71FC /* CellView.swift in Sources */,
+				11617C4F28C3DFE800C66A6C /* StationGridView.swift in Sources */,
+				1100B8EC28BFE6B000FB71FC /* CellModel.swift in Sources */,
+				11617C4228C351FE00C66A6C /* RadioView.swift in Sources */,
+				11617C4428C3C6AC00C66A6C /* StationsGrids.swift in Sources */,
 				11DC594328BBCC4B004E224D /* iOS6_HW17_Alexander_StrelkovApp.swift in Sources */,
+				11617C4B28C3CFEF00C66A6C /* RadioGridModel.swift in Sources */,
+				11DC595928BC00FF004E224D /* Player.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +400,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"iOS6-HW17-Alexander.Strelkov/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"iOS6-HW17-Alexander.Strelkov/Resources/Preview Content\"";
 				DEVELOPMENT_TEAM = QWP4K38XSA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -277,7 +409,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -298,7 +430,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"iOS6-HW17-Alexander.Strelkov/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"iOS6-HW17-Alexander.Strelkov/Resources/Preview Content\"";
 				DEVELOPMENT_TEAM = QWP4K38XSA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -307,7 +439,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
