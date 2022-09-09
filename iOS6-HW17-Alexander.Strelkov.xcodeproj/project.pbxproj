@@ -70,42 +70,40 @@
 		1100B8E628BFE61F00FB71FC /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				118E9BE428CBB67D0093944C /* App */,
 				1100B8EA28BFE6A300FB71FC /* Custom Cells */,
-				1100B8E928BFE64900FB71FC /* View */,
-				1100B8E828BFE64100FB71FC /* Tabbar */,
-				1100B8E728BFE63300FB71FC /* Player */,
+				1100B8E928BFE64900FB71FC /* Scenes */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
 		};
-		1100B8E728BFE63300FB71FC /* Player */ = {
+		1100B8E728BFE63300FB71FC /* MiniPlayerView */ = {
 			isa = PBXGroup;
 			children = (
 				11DC595828BC00FF004E224D /* Player.swift */,
 				11DC595628BBEAE8004E224D /* BluringView.swift */,
 			);
-			path = Player;
+			path = MiniPlayerView;
 			sourceTree = "<group>";
 		};
-		1100B8E828BFE64100FB71FC /* Tabbar */ = {
+		1100B8E828BFE64100FB71FC /* TabbarView */ = {
 			isa = PBXGroup;
 			children = (
 				11DC595228BBD38A004E224D /* Tabbar.swift */,
 			);
-			path = Tabbar;
+			path = TabbarView;
 			sourceTree = "<group>";
 		};
-		1100B8E928BFE64900FB71FC /* View */ = {
+		1100B8E928BFE64900FB71FC /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
-				11DC594228BBCC4B004E224D /* iOS6_HW17_Alexander_StrelkovApp.swift */,
-				11DC595028BBD05A004E224D /* LibraryView.swift */,
-				11DC595A28BCE2A3004E224D /* ListView.swift */,
-				11617C4128C351FE00C66A6C /* RadioView.swift */,
-				11617C4528C3C72300C66A6C /* RadioGrids.swift */,
-				11617C4328C3C6AC00C66A6C /* StationsGrids.swift */,
+				1100B8E728BFE63300FB71FC /* MiniPlayerView */,
+				118E9BE528CBB68B0093944C /* LibraryView */,
+				1100B8E828BFE64100FB71FC /* TabbarView */,
+				118E9BE628CBB6960093944C /* ListView */,
+				118E9BE328CBB64B0093944C /* RadioView */,
 			);
-			path = View;
+			path = Scenes;
 			sourceTree = "<group>";
 		};
 		1100B8EA28BFE6A300FB71FC /* Custom Cells */ = {
@@ -119,6 +117,40 @@
 				11617C4E28C3DFE800C66A6C /* StationGridView.swift */,
 			);
 			path = "Custom Cells";
+			sourceTree = "<group>";
+		};
+		118E9BE328CBB64B0093944C /* RadioView */ = {
+			isa = PBXGroup;
+			children = (
+				11617C4128C351FE00C66A6C /* RadioView.swift */,
+				11617C4528C3C72300C66A6C /* RadioGrids.swift */,
+				11617C4328C3C6AC00C66A6C /* StationsGrids.swift */,
+			);
+			path = RadioView;
+			sourceTree = "<group>";
+		};
+		118E9BE428CBB67D0093944C /* App */ = {
+			isa = PBXGroup;
+			children = (
+				11DC594228BBCC4B004E224D /* iOS6_HW17_Alexander_StrelkovApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		118E9BE528CBB68B0093944C /* LibraryView */ = {
+			isa = PBXGroup;
+			children = (
+				11DC595028BBD05A004E224D /* LibraryView.swift */,
+			);
+			path = LibraryView;
+			sourceTree = "<group>";
+		};
+		118E9BE628CBB6960093944C /* ListView */ = {
+			isa = PBXGroup;
+			children = (
+				11DC595A28BCE2A3004E224D /* ListView.swift */,
+			);
+			path = ListView;
 			sourceTree = "<group>";
 		};
 		11DC593628BBCC4B004E224D = {
