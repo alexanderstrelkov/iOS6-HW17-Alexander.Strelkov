@@ -16,6 +16,7 @@
 		11617C4B28C3CFEF00C66A6C /* RadioGridModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11617C4A28C3CFEF00C66A6C /* RadioGridModel.swift */; };
 		11617C4D28C3DFDC00C66A6C /* StationGridModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11617C4C28C3DFDC00C66A6C /* StationGridModel.swift */; };
 		11617C4F28C3DFE800C66A6C /* StationGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11617C4E28C3DFE800C66A6C /* StationGridView.swift */; };
+		118E9BED28D61D610093944C /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118E9BEC28D61D610093944C /* SearchView.swift */; };
 		11DC594328BBCC4B004E224D /* iOS6_HW17_Alexander_StrelkovApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DC594228BBCC4B004E224D /* iOS6_HW17_Alexander_StrelkovApp.swift */; };
 		11DC594728BBCC4E004E224D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11DC594628BBCC4E004E224D /* Assets.xcassets */; };
 		11DC594A28BBCC4E004E224D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11DC594928BBCC4E004E224D /* Preview Assets.xcassets */; };
@@ -24,6 +25,10 @@
 		11DC595728BBEAE8004E224D /* BluringView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DC595628BBEAE8004E224D /* BluringView.swift */; };
 		11DC595928BC00FF004E224D /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DC595828BC00FF004E224D /* Player.swift */; };
 		11DC595B28BCE2A3004E224D /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DC595A28BCE2A3004E224D /* ListView.swift */; };
+		11FBA95328D769660003C858 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FBA95228D769660003C858 /* SearchBar.swift */; };
+		11FBA95528D77AD60003C858 /* SearchGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FBA95428D77AD60003C858 /* SearchGridView.swift */; };
+		11FBA95728D77B640003C858 /* SearchGrids.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FBA95628D77B640003C858 /* SearchGrids.swift */; };
+		11FBA95928D77C6F0003C858 /* SearchGridModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FBA95828D77C6F0003C858 /* SearchGridModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +41,7 @@
 		11617C4A28C3CFEF00C66A6C /* RadioGridModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioGridModel.swift; sourceTree = "<group>"; };
 		11617C4C28C3DFDC00C66A6C /* StationGridModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationGridModel.swift; sourceTree = "<group>"; };
 		11617C4E28C3DFE800C66A6C /* StationGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationGridView.swift; sourceTree = "<group>"; };
+		118E9BEC28D61D610093944C /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 		11DC593F28BBCC4B004E224D /* iOS6-HW17-Alexander.Strelkov.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS6-HW17-Alexander.Strelkov.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		11DC594228BBCC4B004E224D /* iOS6_HW17_Alexander_StrelkovApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS6_HW17_Alexander_StrelkovApp.swift; sourceTree = "<group>"; };
 		11DC594628BBCC4E004E224D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -45,6 +51,10 @@
 		11DC595628BBEAE8004E224D /* BluringView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluringView.swift; sourceTree = "<group>"; };
 		11DC595828BC00FF004E224D /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		11DC595A28BCE2A3004E224D /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		11FBA95228D769660003C858 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		11FBA95428D77AD60003C858 /* SearchGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchGridView.swift; sourceTree = "<group>"; };
+		11FBA95628D77B640003C858 /* SearchGrids.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchGrids.swift; sourceTree = "<group>"; };
+		11FBA95828D77C6F0003C858 /* SearchGridModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchGridModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +112,7 @@
 				1100B8E828BFE64100FB71FC /* TabbarView */,
 				118E9BE628CBB6960093944C /* ListView */,
 				118E9BE328CBB64B0093944C /* RadioView */,
+				118E9BE928D61D240093944C /* SearchView */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -115,6 +126,8 @@
 				11617C4828C3CF9200C66A6C /* RadioGridView.swift */,
 				11617C4C28C3DFDC00C66A6C /* StationGridModel.swift */,
 				11617C4E28C3DFE800C66A6C /* StationGridView.swift */,
+				11FBA95828D77C6F0003C858 /* SearchGridModel.swift */,
+				11FBA95428D77AD60003C858 /* SearchGridView.swift */,
 			);
 			path = "Custom Cells";
 			sourceTree = "<group>";
@@ -151,6 +164,16 @@
 				11DC595A28BCE2A3004E224D /* ListView.swift */,
 			);
 			path = ListView;
+			sourceTree = "<group>";
+		};
+		118E9BE928D61D240093944C /* SearchView */ = {
+			isa = PBXGroup;
+			children = (
+				118E9BEC28D61D610093944C /* SearchView.swift */,
+				11FBA95628D77B640003C858 /* SearchGrids.swift */,
+				11FBA95228D769660003C858 /* SearchBar.swift */,
+			);
+			path = SearchView;
 			sourceTree = "<group>";
 		};
 		11DC593628BBCC4B004E224D = {
@@ -257,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				11617C4928C3CF9200C66A6C /* RadioGridView.swift in Sources */,
+				11FBA95928D77C6F0003C858 /* SearchGridModel.swift in Sources */,
 				11DC595328BBD38A004E224D /* Tabbar.swift in Sources */,
 				11617C4628C3C72300C66A6C /* RadioGrids.swift in Sources */,
 				11DC595128BBD05A004E224D /* LibraryView.swift in Sources */,
@@ -267,9 +291,13 @@
 				11617C4F28C3DFE800C66A6C /* StationGridView.swift in Sources */,
 				1100B8EC28BFE6B000FB71FC /* CellModel.swift in Sources */,
 				11617C4228C351FE00C66A6C /* RadioView.swift in Sources */,
+				11FBA95728D77B640003C858 /* SearchGrids.swift in Sources */,
 				11617C4428C3C6AC00C66A6C /* StationsGrids.swift in Sources */,
+				118E9BED28D61D610093944C /* SearchView.swift in Sources */,
 				11DC594328BBCC4B004E224D /* iOS6_HW17_Alexander_StrelkovApp.swift in Sources */,
+				11FBA95528D77AD60003C858 /* SearchGridView.swift in Sources */,
 				11617C4B28C3CFEF00C66A6C /* RadioGridModel.swift in Sources */,
+				11FBA95328D769660003C858 /* SearchBar.swift in Sources */,
 				11DC595928BC00FF004E224D /* Player.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
