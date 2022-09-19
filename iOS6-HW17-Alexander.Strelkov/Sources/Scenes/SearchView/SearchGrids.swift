@@ -9,12 +9,12 @@ import SwiftUI
 
 struct SearchGrids: View {
     
-    let columns: [GridItem] = [GridItem(.flexible())]
-    @State private var searchGridCells = StationGridModel.cells
+    let columns = Array(repeating: GridItem(.flexible()), count: 2)
+    @State private var searchGridCells = SearchGridModel.cells
     
     var body: some View {
         ScrollView(.vertical, showsIndicators: false) {
-            LazyVGrid(columns: columns) {
+            LazyVGrid(columns: columns, spacing: 10) {
                 Section(header:
                             Text("Поиск по категориям")
                             .bold()
@@ -22,7 +22,7 @@ struct SearchGrids: View {
                             .frame(maxWidth: .infinity, alignment: .leading)
                 ) {
                     ForEach(searchGridCells, id: \.self) { model in
-                        StationGridView(gridModel: model)
+                        SearchGridView(gridModel: model)
                     }
                 }
             }
