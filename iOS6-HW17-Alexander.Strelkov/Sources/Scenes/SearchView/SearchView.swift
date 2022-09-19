@@ -18,7 +18,7 @@ struct SearchView: View {
             ScrollView(.vertical, showsIndicators: false) {
                 SearchBar()
                     .navigationTitle("Поиск")
-//                SearchGrids()
+                SearchGrids()
             }
             
         }

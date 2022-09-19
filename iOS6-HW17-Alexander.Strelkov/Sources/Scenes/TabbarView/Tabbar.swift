@@ -26,7 +26,7 @@ struct Tabbar: View {
                         Image(systemName: "dot.radiowaves.left.and.right")
                         Text("Радио")
                     }
-                Text("В разбработке")
+                SearchView()
                     .tabItem {
                         Image(systemName: "magnifyingglass")
                         Text("Инфо")
@@ -34,7 +34,7 @@ struct Tabbar: View {
             }
             .accentColor(.red)
             Player()
-                .offset(y: 290)
+                .offset(y: 295)
         }
     }
 }

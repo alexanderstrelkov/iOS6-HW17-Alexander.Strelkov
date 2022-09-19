@@ -13,15 +13,23 @@ struct SearchGridModel: Identifiable, Hashable  {
     let icon: String
     
     static var cells: [SearchGridModel] = [SearchGridModel(title: "Микстейп",
-                                                             icon: "station1"),
+                                                             icon: "search1"),
                                            SearchGridModel(title: "Хип-хоп и R&B",
-                                                             icon: "station2"),
+                                                             icon: "search2"),
                                            SearchGridModel(title: "Музыка 2.0",
-                                                             icon: "station3"),
+                                                             icon: "search3"),
                                            SearchGridModel(title: "Классика рока",
-                                                             icon: "station4"),
+                                                             icon: "search4"),
                                            SearchGridModel(title: "Классика",
-                                                             icon: "station5"),
+                                                             icon: "search5"),
                                            SearchGridModel(title: "Музыка для расслабления",
-                                                             icon: "station6")]
+                                                             icon: "search6"),
+                                           SearchGridModel(title: "80-e",
+                                                             icon: "search7"),
+                                           SearchGridModel(title: "2010-e",
+                                                             icon: "search8"),
+                                           SearchGridModel(title: "90-e",
+                                                             icon: "search9"),
+                                           SearchGridModel(title: "2000-e",
+                                                             icon: "search10")]
 }
