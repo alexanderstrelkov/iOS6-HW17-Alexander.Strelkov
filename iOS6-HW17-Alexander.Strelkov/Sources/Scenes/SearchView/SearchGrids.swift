@@ -20,9 +20,13 @@ struct SearchGrids: View {
                             .bold()
                             .font(.title3)
                             .frame(maxWidth: .infinity, alignment: .leading)
+                            .offset(x: 5)
                 ) {
                     ForEach(searchGridCells, id: \.self) { model in
-                        SearchGridView(gridModel: model)
+                        NavigationLink(destination: DetailView()) {
+                            SearchGridView(gridModel: model)
+                                .navigationBarTitle("Поиск")
+                        }
                     }
                 }
             }

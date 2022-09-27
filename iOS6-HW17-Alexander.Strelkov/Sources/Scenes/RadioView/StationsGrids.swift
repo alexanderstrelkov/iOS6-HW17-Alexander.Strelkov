@@ -20,7 +20,8 @@ struct StationsGrids: View {
                             .bold()
                             .font(.title2)
                             .frame(maxWidth: .infinity, alignment: .leading)
-                            .padding()
+                            .padding(5)
+
                 ) {
                     ForEach(stationGridModels, id: \.self) { model in
                         StationGridView(gridModel: model)

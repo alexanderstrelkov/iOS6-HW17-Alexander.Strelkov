@@ -16,6 +16,7 @@ struct StationGridView: View {
                 .resizable()
                 .scaledToFit()
                 .frame(width: 120, height: 120)
+                .cornerRadius(15)
             VStack {
                 Text(gridModel.title)
                     .frame(width: 250, alignment: .leading)

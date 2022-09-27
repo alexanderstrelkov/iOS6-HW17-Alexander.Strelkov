@@ -1,26 +1,26 @@
 //
-//  CustomRadioGrid.swift
+//  DetailSearchView.swift
 //  iOS6-HW17-Alexander.Strelkov
 //
-//  Created by Alexandr Strelkov on 03.09.2022.
+//  Created by Alexandr Strelkov on 19.09.2022.
 //
 
 import SwiftUI
 
-struct RadioGridView: View {
-    var gridModel: RadioGridModel
+struct DetailSearchView: View {
+    var gridModel: DetailSearchModel
     
     var body: some View {
         VStack {
             VStack {
-                Text("Избранная радиостанция")
+                Text("Избранный плейлист")
                     .frame(width: 370, alignment: .leading)
                     .foregroundColor(.secondary)
                 Text(gridModel.title)
                     .frame(width: 370, alignment: .leading)
                     .font(.title2)
                     .foregroundColor(.black)
-                Text("Станция Apple Music")
+                Text(gridModel.subtitle)
                     .frame(width: 370, alignment: .leading)
                     .foregroundColor(.secondary)
             }
@@ -29,12 +29,13 @@ struct RadioGridView: View {
                 .resizable()
                 .scaledToFit()
                 .frame(width: 375)
+                .cornerRadius(15)
         }
     }
 }
 
-struct RadioGridView_Previews: PreviewProvider {
+struct DetailSearchView_Previews: PreviewProvider {
     static var previews: some View {
-        RadioGridView(gridModel: RadioGridModel.cells[0])
+        DetailSearchView(gridModel: DetailSearchModel.cells[0])
     }
 }
