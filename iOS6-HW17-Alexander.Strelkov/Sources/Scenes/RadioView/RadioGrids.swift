@@ -10,12 +10,12 @@ import SwiftUI
 struct RadioGrids: View {
     
     let rows: [GridItem] = [GridItem(.flexible())]
-    @State private var radioGridModels = RadioGridModel.cells
+    @State private var radio = Music().radio
     
     var body: some View {
         ScrollView(.horizontal, showsIndicators: false) {
             LazyHGrid(rows: rows) {
-                ForEach(radioGridModels, id: \.self) { model in
+                ForEach(radio, id: \.self) { model in
                     RadioGridView(gridModel: model)
                         .frame(width: 390)
                 }

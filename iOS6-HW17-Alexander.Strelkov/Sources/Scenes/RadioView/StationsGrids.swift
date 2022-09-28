@@ -10,7 +10,7 @@ import SwiftUI
 struct StationsGrids: View {
     
     let columns: [GridItem] = [GridItem(.flexible())]
-    @State private var stationGridModels = StationGridModel.cells
+    @State private var stations = Music().stations
     
     var body: some View {
         ScrollView(.vertical, showsIndicators: false) {
@@ -21,9 +21,8 @@ struct StationsGrids: View {
                             .font(.title2)
                             .frame(maxWidth: .infinity, alignment: .leading)
                             .padding(5)
-
                 ) {
-                    ForEach(stationGridModels, id: \.self) { model in
+                    ForEach(stations, id: \.self) { model in
                         StationGridView(gridModel: model)
                         Divider()
                     }

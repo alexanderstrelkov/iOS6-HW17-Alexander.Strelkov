@@ -7,6 +7,12 @@
 
 import SwiftUI
 
+class Search: ObservableObject {
+    @Published var search: [SearchGridModel] = SearchGridModel.cells
+    @Published var detail: [DetailSearchModel] = DetailSearchModel.cells
+    @Published var bottom: [DetailBottomModel] = DetailBottomModel.cells
+}
+
 struct SearchGridModel: Identifiable, Hashable  {
     var id = UUID()
     let title: String

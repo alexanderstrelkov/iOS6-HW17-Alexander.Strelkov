@@ -10,7 +10,7 @@ import SwiftUI
 struct PlaylistsGrid: View {
     
     let rows: [GridItem] = [GridItem(.flexible())]
-    @State private var playlistGridModels = DetailSearchModel.cells
+    @State var detail = Search().detail
     
     var body: some View {
         ScrollView(.vertical) {
@@ -21,7 +21,7 @@ struct PlaylistsGrid: View {
                     .padding(5)
                 ScrollView(.horizontal, showsIndicators: false) {
                     LazyHGrid(rows: rows) {
-                        ForEach(playlistGridModels, id: \.self) { model in
+                        ForEach(detail, id: \.self) { model in
                             DetailSearchView(gridModel: model)
                                 .frame(width: 390)
                                 .padding(1)

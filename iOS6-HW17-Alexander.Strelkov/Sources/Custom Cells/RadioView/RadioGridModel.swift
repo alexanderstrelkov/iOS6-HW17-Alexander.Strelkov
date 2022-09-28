@@ -7,6 +7,11 @@
 
 import SwiftUI
 
+class Music: ObservableObject {
+    @Published var radio: [RadioGridModel] = RadioGridModel.cells
+    @Published var stations: [StationGridModel] = StationGridModel.cells
+}
+
 struct RadioGridModel: Identifiable, Hashable  {
     var id = UUID()
     let title: String
