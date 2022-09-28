@@ -10,7 +10,7 @@ import SwiftUI
 struct SearchGrids: View {
     
     let columns = Array(repeating: GridItem(.flexible()), count: 2)
-    @State private var searchGridCells = SearchGridModel.cells
+    @State var search = Search().search
     
     var body: some View {
         ScrollView(.vertical, showsIndicators: false) {
@@ -22,7 +22,7 @@ struct SearchGrids: View {
                             .frame(maxWidth: .infinity, alignment: .leading)
                             .offset(x: 5)
                 ) {
-                    ForEach(searchGridCells, id: \.self) { model in
+                    ForEach(search, id: \.self) { model in
                         NavigationLink(destination: DetailView()) {
                             SearchGridView(gridModel: model)
                                 .navigationBarTitle("Поиск")

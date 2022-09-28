@@ -9,9 +9,9 @@ import SwiftUI
 
 struct SearchView: View {
     
-    
-    @State private var stationCells = StationGridModel.cells
+//    @State private var stationCells = StationGridModel.cells
     @State var searchText = ""
+//    @StateObject var radioAndStations = Music()
     
     var body: some View {
         NavigationView {

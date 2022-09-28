@@ -10,7 +10,7 @@ import SwiftUI
 struct BottomGrid: View {
     
     let rows: [GridItem] = [GridItem(.flexible())]
-    @State private var bottomGridModels = DetailBottomModel.cells
+    @State var bottom = Search().bottom
     
     var body: some View {
         ScrollView(.vertical) {
@@ -21,7 +21,7 @@ struct BottomGrid: View {
                     .padding(.leading, 5)
                 ScrollView(.horizontal, showsIndicators: false) {
                     LazyHGrid(rows: rows, spacing: 10) {
-                        ForEach(bottomGridModels, id: \.self) { model in
+                        ForEach(bottom, id: \.self) { model in
                             DetailBottomView(gridModel: model)
                                 .frame(width: 170)
                                 .padding(.leading, 7)
