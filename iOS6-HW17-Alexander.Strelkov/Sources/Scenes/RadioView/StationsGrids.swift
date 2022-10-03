@@ -8,7 +8,6 @@
 import SwiftUI
 
 struct StationsGrids: View {
-    
     let columns: [GridItem] = [GridItem(.flexible())]
     @State private var stations = Music().stations
     

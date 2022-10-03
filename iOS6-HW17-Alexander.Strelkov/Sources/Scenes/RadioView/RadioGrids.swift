@@ -8,7 +8,6 @@
 import SwiftUI
 
 struct RadioGrids: View {
-    
     let rows: [GridItem] = [GridItem(.flexible())]
     @State private var radio = Music().radio
     
