@@ -11,10 +11,10 @@ struct DetailBottomModel: Identifiable, Hashable  {
     var id = UUID()
     let icon: String
 
-    static var cells: [DetailBottomModel] = [DetailBottomModel(icon: "detail1"),
-                                             DetailBottomModel(icon: "detail2"),
-                                             DetailBottomModel(icon: "detail3"),
-                                             DetailBottomModel(icon: "detail4"),
-                                             DetailBottomModel(icon: "detail5")]
+    static var cells: [DetailBottomModel] = [DetailBottomModel(icon: "detailFirst"),
+                                             DetailBottomModel(icon: "detailSecond"),
+                                             DetailBottomModel(icon: "detailThird"),
+                                             DetailBottomModel(icon: "detailFourth"),
+                                             DetailBottomModel(icon: "detailFifth")]
 }
 

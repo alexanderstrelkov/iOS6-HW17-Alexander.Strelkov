@@ -19,23 +19,23 @@ struct SearchGridModel: Identifiable, Hashable  {
     let icon: String
     
     static var cells: [SearchGridModel] = [SearchGridModel(title: "Микстейп",
-                                                             icon: "search1"),
+                                                             icon: "searchFirst"),
                                            SearchGridModel(title: "Хип-хоп и R&B",
-                                                             icon: "search2"),
+                                                             icon: "searchSecond"),
                                            SearchGridModel(title: "Музыка 2.0",
-                                                             icon: "search3"),
+                                                             icon: "searchThird"),
                                            SearchGridModel(title: "Классика рока",
-                                                             icon: "search4"),
+                                                             icon: "searchFourth"),
                                            SearchGridModel(title: "Классика",
-                                                             icon: "search5"),
+                                                             icon: "searchFifth"),
                                            SearchGridModel(title: "Музыка для расслабления",
-                                                             icon: "search6"),
+                                                             icon: "searchSixth"),
                                            SearchGridModel(title: "80-e",
-                                                             icon: "search7"),
+                                                             icon: "searchSeventh"),
                                            SearchGridModel(title: "2010-e",
-                                                             icon: "search8"),
+                                                             icon: "searchEighth"),
                                            SearchGridModel(title: "90-e",
-                                                             icon: "search9"),
+                                                             icon: "searchNineth"),
                                            SearchGridModel(title: "2000-e",
-                                                             icon: "search10")]
+                                                             icon: "searchTenth")]
 }
