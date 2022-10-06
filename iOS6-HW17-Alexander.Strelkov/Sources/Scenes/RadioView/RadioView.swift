@@ -11,7 +11,6 @@ struct RadioView: View {
     var body: some View {
         NavigationView {
             ScrollView {
-                Divider()
                 RadioGrids()
                 Divider()
                 StationsGrids()

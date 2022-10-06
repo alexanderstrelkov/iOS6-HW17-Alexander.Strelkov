@@ -7,10 +7,10 @@
 
 import SwiftUI
 
-struct Tabbar: View {
-    init() {
-        UINavigationBar.setAnimationsEnabled(false)
-    }
+struct Tabbar: View {    
+    @State var expand = false
+    @Namespace var animation
+    
     var body: some View {
         ZStack {
             TabView {
@@ -26,15 +26,14 @@ struct Tabbar: View {
                         Image(systemName: "dot.radiowaves.left.and.right")
                         Text("Радио")
                     }
-                Text("В разбработке")
+                SearchView()
                     .tabItem {
                         Image(systemName: "magnifyingglass")
                         Text("Инфо")
                     }
             }
             .accentColor(.red)
-            Player()
-                .offset(y: 290)
+            Player(animation: animation, expand: $expand)
         }
     }
 }
