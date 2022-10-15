@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct PlaylistsGrid: View {
+    
     let rows: [GridItem] = [GridItem(.flexible())]
     @State var detail = Search().detail
     
