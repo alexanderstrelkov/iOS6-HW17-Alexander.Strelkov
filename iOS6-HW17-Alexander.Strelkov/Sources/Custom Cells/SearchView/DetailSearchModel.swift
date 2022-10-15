@@ -14,13 +14,13 @@ struct DetailSearchModel: Identifiable, Hashable  {
     let subtitle: String
     
     static var cells: [DetailSearchModel] = [DetailSearchModel(title: "Ностальгия по 2000-м",
-                                               icon: "detail1", subtitle: "Apple Music Поп"),
+                                               icon: "detailFirst", subtitle: "Apple Music Поп"),
                                              DetailSearchModel(title: "Родные песни",
-                                               icon: "detail2", subtitle: "Apple Music Хиты на русском"),
+                                               icon: "detailSecond", subtitle: "Apple Music Хиты на русском"),
                                              DetailSearchModel(title: "Песни для детей",
-                                               icon: "detail3", subtitle: "Apple Music для детей"),
+                                               icon: "detailThird", subtitle: "Apple Music для детей"),
                                              DetailSearchModel(title: "Золотой запас",
-                                               icon: "detail4", subtitle: "Apple Music Поп"),
+                                               icon: "detailFourth", subtitle: "Apple Music Поп"),
                                              DetailSearchModel(title: "Поп на русском: главное",
-                                               icon: "detail5", subtitle: "Apple Music Поп на русском")]
+                                               icon: "detailFifth", subtitle: "Apple Music Поп на русском")]
 }

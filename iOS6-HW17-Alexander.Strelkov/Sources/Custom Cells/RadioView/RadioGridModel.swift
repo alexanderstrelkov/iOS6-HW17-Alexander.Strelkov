@@ -18,13 +18,13 @@ struct RadioGridModel: Identifiable, Hashable  {
     let icon: String
     
     static var cells: [RadioGridModel] = [RadioGridModel(title: "Хиты",
-                                               icon: "radio1"),
+                                               icon: "radioFirst"),
                                           RadioGridModel(title: "Легкий поп",
-                                               icon: "radio2"),
+                                               icon: "radioSecond"),
                                           RadioGridModel(title: "Хип-хоп",
-                                               icon: "radio3"),
+                                               icon: "radioThird"),
                                           RadioGridModel(title: "Поп музыка",
-                                               icon: "radio4"),
+                                               icon: "radioFourth"),
                                           RadioGridModel(title: "Чилаут",
-                                               icon: "radio5")]
+                                               icon: "radioFifth")]
 }

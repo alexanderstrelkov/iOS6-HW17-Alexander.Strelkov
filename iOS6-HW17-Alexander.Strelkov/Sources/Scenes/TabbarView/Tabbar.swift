@@ -31,6 +31,11 @@ struct Tabbar: View {
                         Image(systemName: "magnifyingglass")
                         Text("Инфо")
                     }
+                UIKitView()
+                    .tabItem {
+                        Image(systemName: "arkit")
+                        Text("UIKit")
+                    }
             }
             .accentColor(.red)
             Player(animation: animation, expand: $expand)
