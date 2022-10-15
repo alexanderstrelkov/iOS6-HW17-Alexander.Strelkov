@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct SearchBar: View {
+    
     @State var search = ""
     
     var body: some View {
